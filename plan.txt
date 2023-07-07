@@ -1,0 +1,39 @@
+Scan types
+if there are generics:
+- Take all matching rust primitive types
+- Get corresponding python types
+- Generate a rust function for each python type
+    with corresponding rust type
+- Compile
+- Generate python functions that combine
+    all versions of rust functions checking
+    the types of arguments
+
+
+
+Generate functions according to generics
+for each fn:
+- Handle pointers
+
+
+
+TASKS:
+
+1)DONE  Link python types to rust traits
+2)DONE  Generate all possible primitive types out of generics
+3)  Add a feature to manually add functions for specific types
+4)DONE  Do something with lifetimes probably
+5)DONE  Mutability compatibility handling
+6)DONE  Arguments and output for rust fns
+7)DONE  Generate rust functions
+8)DONE  Generate rust setup
+9)DONE  Compile rust library
+10) Cross-type connectivity for generics-generated functions
+11) External mutability handling
+12) Typification for python-made functions
+13) Modifying output python library with generated functions
+14) Automating simplification of the process
+
+TODO: make a limit to the amount of similar functions
+that can be auto generated
+TODO: make a choice between speed and difficulty
